@@ -1,0 +1,121 @@
+# MH preset
+
+### Require administrator privileges ###
+RequireAdmin
+
+### Privacy Tweaks ###
+DisableTelemetry
+DisableCortana
+DisableWiFiSense
+DisableWebSearch
+DisableAppSuggestions
+DisableActivityHistory
+DisableLocation
+DisableMapUpdates
+DisableFeedback
+DisableTailoredExperiences
+DisableAdvertisingID
+DisableWebLangList
+DisableErrorReporting
+SetP2PUpdateDisable
+DisableDiagTrack
+DisableWAPPush
+DisableRecentFiles
+
+### Security Tweaks ###
+DisableAdminShares
+HideDefenderTrayIcon
+DisableDownloadBlocking
+DisableScriptHost
+EnableDotNetStrongCrypto
+
+### Network Tweaks ###
+SetCurrentNetworkPublic
+SetUnknownNetworksPublic
+DisableIPv6
+DisableConnectionSharing
+DisableRemoteAssistance
+DisableRemoteDesktop
+
+### Service Tweaks ###
+EnableUpdateMSRT
+EnableUpdateDriver
+EnableUpdateMSProducts
+DisableUpdateRestart
+DisableMaintenanceWakeUp
+DisableAutoRestartSignOn
+DisableSharedExperiences
+DisableClipboardHistory
+DisableAutoplay
+DisableAutorun
+DisableStorageSense
+DisableDefragmentation
+EnableNTFSLongPaths
+EnableHibernation
+
+### UI Tweaks ###
+DisableActionCenter
+ShowNetworkOnLockScreen
+ShowShutdownOnLockScreen
+DisableLockScreenBlur
+DisableAeroShake
+DisableAccessibilityKeys
+ShowTaskManagerDetails
+ShowFileOperationsDetails
+HideTaskbarSearch
+HideTaskView
+SetTaskbarCombineNever
+HideTaskbarPeopleIcon
+DisableSearchAppInStore
+SetControlPanelLargeIcons
+DisableShortcutInName
+SetVisualFXPerformance
+RemoveENKeyboard
+EnableNumlock
+SetSoundSchemeNone
+DisableStartupSound
+EnableVerboseStatus
+DisableF1HelpKey
+
+### Explorer UI Tweaks ###
+ShowKnownExtensions
+ShowHiddenFiles
+EnableNavPaneExpand
+HideRecentShortcuts
+SetExplorerThisPC
+ShowThisPCOnDesktop
+HideDocumentsFromThisPC
+HideDocumentsFromExplorer
+Hide3DObjectsFromThisPC
+Hide3DObjectsFromExplorer
+HideIncludeInLibraryMenu
+DisableThumbnailCache
+DisableThumbsDBOnNetwork
+
+### Application Tweaks ###
+UninstallMsftBloat
+UninstallThirdPartyBloat
+DisableXboxFeatures
+DisableAdobeFlash
+DisableEdgePreload
+DisableEdgeShortcutCreation
+DisableIEFirstRun
+DisableFirstLogonAnimation
+DisableMediaSharing
+UninstallMediaPlayer
+UninstallInternetExplorer
+UninstallWorkFolders
+UninstallHelloFace
+UninstallMathRecognizer
+# InstallHyperV
+UninstallSSHClient
+UninstallTelnetClient
+UninstallXPSPrinter
+RemoveFaxPrinter
+UninstallFaxAndScan
+
+# Unpinning
+UnpinStartMenuTiles
+# UnpinTaskbarIcons
+
+WaitForKey
