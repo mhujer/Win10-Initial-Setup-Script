@@ -1,0 +1,106 @@
+# MH preset
+
+### Require administrator privileges ###
+RequireAdmin
+
+### Privacy Tweaks ###
+DisableTelemetry
+DisableWiFiSense
+DisableWebSearch
+DisableAppSuggestions
+DisableLocation
+DisableMapUpdates
+DisableFeedback
+DisableTailoredExperiences
+DisableAdvertisingID
+DisableWebLangList
+DisableCortana
+DisableErrorReporting
+SetP2PUpdateDisable
+DisableDiagTrack
+DisableWAPPush
+
+### Security Tweaks ###
+DisableAdminShares
+HideDefenderTrayIcon
+DisableDownloadBlocking
+
+### Network Tweaks ###
+SetCurrentNetworkPublic
+SetUnknownNetworksPublic
+DisableConnectionSharing
+DisableRemoteAssistance
+DisableRemoteDesktop
+
+### Service Tweaks ###
+EnableUpdateMSProducts
+DisableUpdateRestart
+DisableMaintenanceWakeUp
+DisableAutoplay
+DisableAutorun
+DisableStorageSense
+DisableDefragmentation
+EnableNTFSLongPaths
+EnableHibernation
+
+### UI Tweaks ###
+DisableActionCenter
+ShowNetworkOnLockScreen
+ShowShutdownOnLockScreen
+DisableLockScreenBlur
+DisableAeroShake
+DisableAccessibilityKeys
+ShowTaskManagerDetails
+ShowFileOperationsDetails
+HideTaskbarSearch
+HideTaskView
+SetTaskbarCombineNever
+HideTaskbarPeopleIcon
+DisableSearchAppInStore
+SetControlPanelLargeIcons
+SetVisualFXPerformance
+RemoveENKeyboard
+EnableNumlock
+SetSoundSchemeNone
+DisableStartupSound
+EnableVerboseStatus
+DisableF1HelpKey
+
+### Explorer UI Tweaks ###
+ShowKnownExtensions
+ShowHiddenFiles
+EnableNavPaneExpand
+HideRecentShortcuts
+SetExplorerThisPC
+ShowThisPCOnDesktop
+HideDocumentsFromThisPC
+HideDocumentsFromExplorer
+Hide3DObjectsFromThisPC
+Hide3DObjectsFromExplorer
+HideIncludeInLibraryMenu
+DisableThumbnailCache
+DisableThumbsDBOnNetwork
+
+### Application Tweaks ###
+UninstallMsftBloat
+UninstallThirdPartyBloat
+DisableXboxFeatures
+DisableAdobeFlash
+DisableEdgePreload
+DisableEdgeShortcutCreation
+DisableFirstLogonAnimation
+DisableMediaSharing
+UninstallMediaPlayer
+UninstallInternetExplorer
+UninstallWorkFolders
+# InstallHyperV
+UninstallSSHClient
+UninstallXPSPrinter
+RemoveFaxPrinter
+UninstallFaxAndScan
+
+# Unpinning
+UnpinStartMenuTiles
+# UnpinTaskbarIcons
+
+WaitForKey
