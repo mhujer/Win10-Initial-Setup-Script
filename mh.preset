@@ -70,7 +70,6 @@ DisableSearchAppInStore
 SetControlPanelLargeIcons
 DisableShortcutInName
 SetVisualFXPerformance
-RemoveENKeyboard
 EnableNumlock
 SetSoundSchemeNone
 DisableStartupSound
