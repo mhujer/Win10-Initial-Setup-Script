@@ -4097,6 +4097,16 @@ Function Restart {
 #endregion Auxiliary Functions
 ##########
 
+## MH EXTRAS
+
+# Disable Meet Now button
+Function DisableMeetNowButton {
+	Write-Output "Disabling Meet Now button..."
+	If (!(Test-Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer")) {
+		New-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" | Out-Null
+	}
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" -Name "HideSCAMeetNow" -Type DWord -Value 1
+}
 
 
 # Export functions
