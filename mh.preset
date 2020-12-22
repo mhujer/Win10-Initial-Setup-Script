@@ -117,4 +117,7 @@ UninstallFaxAndScan
 UnpinStartMenuTiles
 # UnpinTaskbarIcons
 
+## MH Extra
+DisableMeetNowButton
+
 WaitForKey
