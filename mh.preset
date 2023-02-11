@@ -32,7 +32,7 @@ EnableDotNetStrongCrypto
 ### Network Tweaks ###
 SetCurrentNetworkPublic
 SetUnknownNetworksPublic
-#DisableIPv6
+DisableIPv6
 DisableConnectionSharing
 DisableRemoteAssistance
 DisableRemoteDesktop
