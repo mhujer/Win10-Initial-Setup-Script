@@ -1,3 +1,9 @@
+Regarding this fork - I mixed some scripts from the original repo and included some from https://github.com/Raphire/Win11Debloat (thank you both!)
+
+It's not configurable in any way, it's just for my setup.
+
+---
+
 ## The project is archived
 
 This project has been archived because I no longer use Windows. I grew tired with the system being unable to keep itself configured in the desired state, group policies randomly stopping working for hundreds of managed workstations at once, advertisements, unwanted tips and content popping up on various places throughout the user interface, and incompetent support even for enterprise products. Ultimately I have migrated virtually all my servers, workstations and laptops to linux. Even though there are areas where the open source products are still lacking, the transparency, configurability and reliability greatly outweighs the drawbacks for me.
