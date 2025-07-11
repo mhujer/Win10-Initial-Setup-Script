@@ -19,7 +19,6 @@ DisableLockScreenBlur
 ShowTaskManagerDetails
 ShowFileOperationsDetails
 SetVisualFXPerformance
-AddENKeyboard
 EnableNumlock
 HideDesktopIcons
 DisableThumbnailCache
