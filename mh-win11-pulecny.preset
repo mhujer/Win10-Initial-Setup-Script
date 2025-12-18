@@ -1,0 +1,26 @@
+### Require administrator privileges ###
+RequireAdmin
+
+BunchOfTweaks
+DisableAccessibilityKeys
+SetSoundSchemeNone
+DisableStartupSound
+EnableVerboseStatus
+DisableScriptHost
+EnableUpdateMSProducts
+DisableMaintenanceWakeUp
+DisableAutoplay
+DisableAutorun
+EnableHibernation
+ShowShutdownOnLockScreen
+DisableLockScreenBlur
+ShowTaskManagerDetails
+ShowFileOperationsDetails
+SetVisualFXPerformance
+EnableNumlock
+DisableThumbnailCache
+DisableXboxFeatures
+SetTaskbarCombineWhenFull
+UnpinTaskbarIcons
+
+WaitForKey
