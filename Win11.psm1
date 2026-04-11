@@ -23,6 +23,22 @@ Function BunchOfTweaks {
 	RegImport "> Hiding 'Give access to' in the context menu..." "Disable_Give_access_to_context_menu.reg"
 	RegImport "> Hiding duplicate removable drive entries from the File Explorer navigation pane..." "Hide_duplicate_removable_drives_from_navigation_pane_of_File_Explorer.reg"
 
+	# --- Imported from Win11Debloat (2026-04 refresh) ---
+	# Privacy / search
+	RegImport "> Disabling Windows search history..." "Disable_Search_History.reg"
+	RegImport "> Disabling Search Highlights..." "Disable_Search_Highlights.reg"
+	# AI
+	RegImport "> Preventing WSAIFabricSvc from auto-starting..." "Disable_AI_Service_Auto_Start.reg"
+	# System / UX
+	RegImport "> Disabling Storage Sense automatic cleanup..." "Disable_Storage_Sense.reg"
+	RegImport "> Disabling the Share Drag Tray..." "Disable_Share_Drag_Tray.reg"
+	# Edge
+	RegImport "> Disabling Edge ads, first-run, Acrobat and spotlight prompts..." "Disable_Edge_Ads_And_Suggestions.reg"
+	# Windows Update
+	RegImport "> Preventing auto-reboot after updates while signed in..." "Prevent_Auto_Reboot.reg"
+	RegImport "> Disabling Delivery Optimization P2P update sharing..." "Disable_Delivery_Optimization.reg"
+	RegImport "> Opting out of 'get updates as soon as available'..." "Disable_Update_ASAP.reg"
+
 	# uninstall apps
 	Get-AppxPackage "Clipchamp.Clipchamp" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.BingNews" | Remove-AppxPackage
