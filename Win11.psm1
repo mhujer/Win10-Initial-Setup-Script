@@ -46,6 +46,23 @@ Function BunchOfTweaks {
 	Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.OutlookForWindows" | Remove-AppxPackage
 	Get-AppxPackage "MSTeams" | Remove-AppxPackage
+	Get-AppxPackage "7EE7776C.LinkedInforWindows" | Remove-AppxPackage
+	Get-AppxPackage "Microsoft.Todos" | Remove-AppxPackage
+	Get-AppxPackage "Microsoft.PowerAutomateDesktop" | Remove-AppxPackage
+	Get-AppxPackage "MicrosoftCorporationII.QuickAssist" | Remove-AppxPackage
+	Get-AppxPackage "Microsoft.MicrosoftStickyNotes" | Remove-AppxPackage
+
+	# Teams Meeting Add-in for Microsoft Office (MSI, left behind by classic Teams)
+	$uninstallKeys = @(
+		"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*",
+		"HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"
+	)
+	Get-ItemProperty -Path $uninstallKeys -ErrorAction SilentlyContinue |
+		Where-Object { $_.DisplayName -like "Microsoft Teams Meeting Add-in*" } |
+		ForEach-Object {
+			Write-Output "Uninstalling $($_.DisplayName)..."
+			Start-Process -FilePath "msiexec.exe" -ArgumentList "/x $($_.PSChildName) /qn /norestart" -Wait
+		}
 }
 
 Function DisableAccessibilityKeys {
